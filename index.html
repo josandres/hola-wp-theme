@@ -4,8 +4,10 @@
 	HEAD section starts here
 	-->
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 	</head>
 	<!--
 	BODY section
@@ -25,19 +27,47 @@
 					<div id="photo">
 						photo goes here
 					</div>
-					<h2>Motto goes here!</h2>
-					<div id="contact">
-						<span id="web">Web address</span>
-						<span id="company">Company</span>
-						<span id="phone">Phone number</span>
-						<span id="email">email address</span>
-					</div>
+					<span class="motto">Motto goes here!</span>
+					<ul class="contact">
+						<li id="weburl">Web address</li>
+						<li id="company">Company</li>
+						<li id="phone">Phone number</li>
+						<li id="email">Email address</li>
+					</ul>
 				</div>
 			</div>
 			<!-- Card back row -->
 			<div id="card-back" class="row">
 				<div class="span12">
-					Social media links go here!
+					<!--
+					Social media description
+					3 columns for each element may be enough
+					-->
+					<div class="row">
+						<div class="span3">
+							Facebook
+						</div>
+						<div class="span3">
+							Twitter
+						</div>
+						<div class="span3">
+							Tuenti
+						</div>
+						<div class="span3">
+							Quora
+						</div>
+					</div>
+					<div class="row">
+						<div class="span3">
+							LinkedIn
+						</div>
+						<div class="span3">
+							Orkut
+						</div>
+						<div class="span3">
+							Instagram
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
