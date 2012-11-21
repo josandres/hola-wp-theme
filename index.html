@@ -1,16 +1,47 @@
-<html>
-   <head>
-       <!--
-       Link to bootstrap css goes here!
-       -->
-   </head>
-   <body>
-       <div id="card-front">
-           <h1>Hello Bootstrap!</h1>
-           <div id="photo">
-               photo goes here
-           </div>
-           <h2>Motto goes here!</h2>
-       </div>
-   </body>
+<!DOCTYPE html>
+<html lang="en">
+	<!--
+	HEAD section starts here
+	-->
+	<head>
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	</head>
+	<!--
+	BODY section
+	-->
+	<body>
+		<!-- Card front row -->
+		<!--
+		TODO at the moment two rows of 12 columns are used.
+		In the future maybe less column with offset should be used to 
+		achieve better layout results
+		-->
+		<div id="card-front" class="row">
+			<div class="span12">
+				<h1>Hello Bootstrap!</h1>
+				<div id="photo">
+					photo goes here
+				</div>
+				<h2>Motto goes here!</h2>
+				<div id="contact">
+					<span id="web">Web address</span>
+					<span id="company">Company</span>
+					<span id="phone">Phone number</span>
+					<span id="email">email address</span>
+				</div>
+			</div>
+		</div>
+		<!-- Card back row -->
+		<div id="card-back" class="row">
+			<div class="span12">
+				something else goes here
+			</div>
+		</div>
+		
+		<!-- Hotlink to javascript resources -->
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
 </html>
+<!-- Proudly given to you by J. Andrés Pizarro -->
