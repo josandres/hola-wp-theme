@@ -7,7 +7,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-		<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+		<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+		<link href="css/zocial/zocial.css" rel="stylesheet">
+		
 	</head>
 	<!--
 	BODY section
@@ -23,17 +25,45 @@
 			-->
 			<div id="card-front" class="row">
 				<div class="span12">
-					<h1>Hello Bootstrap!</h1>
+					<!-- %NAME% -->
+					<h1>Buzz Lightyear</h1>
 					<div id="photo">
-						photo goes here
+						<!-- %PICTURE% -->
+						<img src="img/profile.jpg" />
 					</div>
-					<span class="motto">Motto goes here!</span>
-					<ul class="contact">
-						<li id="weburl">Web address</li>
-						<li id="company">Company</li>
-						<li id="phone">Phone number</li>
-						<li id="email">Email address</li>
-					</ul>
+					<!-- Motto -->
+					<blockquote>
+						<p class="lead">
+							To the infinite and beyond!
+						</p>
+					</blockquote>
+					<!-- Contact information -->
+					<dl class="dl-horizontal">
+						<dt>
+							Web URL
+						</dt>
+						<dd>
+							http://www.google.es
+						</dd>
+						<dt>
+							Company
+						</dt>
+						<dd>
+							Google
+						</dd>
+						<dt>
+							Phone number
+						</dt>
+						<dd>
+							+34 555 12 34 56
+						</dd>
+						<dt>
+							email
+						</dt>
+						<dd>
+							justme@gmail.com
+						</dd>
+					</dl>
 				</div>
 			</div>
 			<!-- Card back row -->
@@ -45,27 +75,31 @@
 					-->
 					<div class="row">
 						<div class="span3">
-							Facebook
+							<a href="#" class="thumbnail zocial facebook">
+								 Facebook
+							</a>
 						</div>
 						<div class="span3">
-							Twitter
+							<a href="#" class="thumbnail zocial twitter">
+								 Twitter
+							</a>
 						</div>
 						<div class="span3">
-							Tuenti
+							<a href="#" class="thumbnail zocial quora">
+								 Quora
+							</a>
 						</div>
 						<div class="span3">
-							Quora
+							<a href="#" class="thumbnail zocial linkedin">
+								 LinkedIn
+							</a>
 						</div>
 					</div>
 					<div class="row">
 						<div class="span3">
-							LinkedIn
-						</div>
-						<div class="span3">
-							Orkut
-						</div>
-						<div class="span3">
-							Instagram
+							<a href="#" class="thumbnail zocial instagram">
+								 Instagram
+							</a>
 						</div>
 					</div>
 				</div>
