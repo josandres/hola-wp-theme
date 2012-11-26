@@ -1,0 +1,22 @@
+#card-front 
+{
+-moz-border-radius: 15px;
+border-radius: 15px;
+
+background: #EEEEEE;
+
+margin-top: 1em;
+margin-bottom: 1em;
+
+padding: 1em 1em 1em 1em;
+} 
+
+#card-back 
+{
+-moz-border-radius: 15px;
+border-radius: 15px;
+
+background: #EEEEEE;
+
+padding: 1em 1em 1em 1em;
+} 
